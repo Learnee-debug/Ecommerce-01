@@ -1,11 +1,14 @@
-# Ecommerce-01
 
 
-Milestone 1:
+Frontend: React.js
+Backend: Node.js with Express.js
+Database: MongoDB
+Authentication: JSON Web Tokens (JWT)
 
-In this session we have learned about Mern Stack and it basic functioning.
+Key Features
 
-M-Mernstack
-E-Express JS
-R-React(To work on front-end)
-N-Node JS(For backend) 
+User authentication (registration and login)
+Product catalog management
+Shopping cart functionality
+Order processing and management
+RESTful API architecture
