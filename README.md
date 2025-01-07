@@ -1,8 +1,11 @@
 
 
 Frontend: React.js
+
 Backend: Node.js with Express.js
+
 Database: MongoDB
+
 Authentication: JSON Web Tokens (JWT)
 
 Key Features
