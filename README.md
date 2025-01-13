@@ -4,68 +4,56 @@
 
 In this milestone, we explored the fundamentals and functionality of the MERN stack:
 
-M - MongoDB: Serves as the database for storing application data.
+**M - MongoDB:** Serves as the database for storing application data.
 
-E - Express.js: Acts as the API layer, facilitating communication between the client and server.
+**E - Express.js:** Acts as the API layer, facilitating communication between the client and server.
 
-R - React.js: Powers the client-side application with a dynamic user interface.
+**R - React.js:** Powers the client-side application with a dynamic user interface.
 
-N - Node.js: Provides the runtime environment to run Express on the server.
+**N - Node.js:** Provides the runtime environment to run Express on the server.
 
-🔑 Key Features Implemented
+🔑 **Key Features Implemented**
 
-Authentication
+- **Authentication**
+  - **Login:** Allows users to sign in to their accounts.
+  - **Logout:** Enables users to securely log out.
+  - **Signup:** Provides a registration interface for new users.
 
-Login: Allows users to sign in to their accounts.
+- **Product Page**
+  - Displays all available products with detailed information.
 
-Logout: Enables users to securely log out.
+- **Orders Page**
+  - Showcases the orders placed by each user.
 
-Signup: Provides a registration interface for new users.
+- **Payment Gateway**
+  - Integrated a secure payment system for processing transactions.
 
-Product Page
-
-Displays all available products with detailed information.
-
-Orders Page
-
-Showcases the orders placed by each user.
-
-Payment Gateway
-
-Integrated a secure payment system for processing transactions.
-
-📖 Milestone 2: Project Overview
+📖 **Milestone 2: Project Overview**
 
 This milestone focused on setting up the development environment for the backend project and designing the basic UI for the login page.
 
-🖥️ Frontend Setup
+🖥️ **Frontend Setup**
 
-React Setup
+- **React Setup:**
+  - `npm create vite@latest frontend`
 
-npm create vite@latest frontend
+- **Tailwind CSS Integration:** Used for efficient and responsive styling.
 
-Tailwind CSS Integration: Used for efficient and responsive styling.
+🔧 **Backend Setup**
 
-🔧 Backend Setup
+- **Initialize the Backend Project:**
+  - `npm init -y`
 
-Initialize the Backend Project:
+- **Install Essential Backend Packages:**
+  - `npm install express mongoose cors nodemon`
+  - **Express:** Lightweight backend framework for building APIs.
+  - **Mongoose:** ODM for MongoDB, simplifying database interactions.
+  - **CORS:** Handles Cross-Origin Resource Sharing.
+  - **Nodemon:** Automatically restarts the server during development.
 
-npm init -y
+🗂️ **Project Structure**
 
-Install Essential Backend Packages:
-
-npm install express mongoose cors nodemon
-
-Express: Lightweight backend framework for building APIs.
-
-Mongoose: ODM for MongoDB, simplifying database interactions.
-
-CORS: Handles Cross-Origin Resource Sharing.
-
-Nodemon: Automatically restarts the server during development.
-
-🗂️ Project Structure
-
+```
 project-root/
 ├── backend/
 │   ├── models/
@@ -80,35 +68,46 @@ project-root/
 │   └── tailwind.config.js
 ├── package.json
 └── README.md
+```
 
-▶️ How to Run the Project
+▶️ **How to Run the Project**
 
-Frontend
+- **Frontend**
+  - `cd frontend`
+  - `npm install`
+  - `npm run dev`
 
-cd frontend
-npm install
-npm run dev
+- **Backend**
+  - `cd backend`
+  - `npm install`
+  - `nodemon server.js`
 
-Backend
+📖 **Milestone 3: Error Handling Integration**
 
-cd backend
-npm install
-nodemon server.js
+In this milestone, we focused on improving the backend by implementing proper error-handling mechanisms to enhance the application's stability and debugging process.
 
-🌟 Future Enhancements
+🔧 **Backend Enhancements**
 
-Implement product search and filtering features.
+- **Error Handling Middleware:**
+  - Implemented a global error handler to catch and manage errors throughout the application.
+  - Improved error responses with clear messages and proper status codes.
+  
+- **Middleware Optimization:**
+  - Reorganized middleware loading to ensure proper request handling and error management.
 
-Add user profile management and customization.
+🌟 **Future Enhancements**
 
-Enhance the payment gateway with multiple payment options.
+- Implement product search and filtering features.
+- Add user profile management and customization.
+- Enhance the payment gateway with multiple payment options.
+- Develop order tracking functionality for users.
 
-Develop order tracking functionality for users.
-
-👨‍💻 Authors
+👨‍💻 **Authors**
 
 Project by [Your Name]
 
-📄 License
+📄 **License**
 
 This project is licensed under the MIT License.
+
+
